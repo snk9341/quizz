@@ -101,7 +101,7 @@ require_once("header.php");
                     echo "vous n'avez pas encore de score enregistré";
                 }else{
 
-                $moyenne1 = $som["note"] / $tot;
+                $moyenne1 = $som["note"]/2;
                 $moyenne1 = number_format($moyenne1, 2);
 
                 $upd = "UPDATE user SET moy1 = $moyenne1 WHERE idu = $idu";
@@ -128,20 +128,20 @@ require_once("header.php");
                 $som = mysqli_fetch_array($query);
 
                 $div = "SELECT * FROM resultat WHERE idu = $idu AND niveau = 1";
-                $cal = mysqli_query($id,$div);
-                $tot = mysqli_num_rows($cal);
+                $result = mysqli_query($id,$div);
+                $tot = mysqli_num_rows($result);
 
                 if($tot = 0){
                     echo "Vous n'avez pas encore de score enregistré";
                 }else{
 
-                $moyenne2 = $som["note"] / $tot;
+                $moyenne2 = $som["note"] / 2;
                 $moyenne2 = number_format($moyenne2, 2);
 
                 $upd = "UPDATE user SET moy2 = $moyenne2 WHERE idu = $idu";
                 $query2 = mysqli_query($id, $upd);
             ?>
-            Votre score moyen dans la difficultée
+            Votre score moyen dans la difficultée <?=$tot//faut enlever ça !!!?> 
             <?php echo "<b>experte</b> est de <br> <b>"."$moyenne2"."/20</b><br>"; ?>
             <?php
             if($moyenne2 < 10){
