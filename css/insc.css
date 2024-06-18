@@ -1,0 +1,55 @@
+.container3{
+    padding: auto;
+    width: 500px;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(163, 196, 196);
+    text-align: center;
+}
+  
+  .connexion {
+      color: #04AA6D;
+  }
+
+  input[type=submit]{
+	font-size: larger;
+  background-color: #04AA6D;
+  border: grey;
+      border-radius: 15px;
+  color: white;
+  padding-left:50px;
+  padding-right:50px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin: 25px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #037c50;
+    transition: 5ms;
+}
+
+input[type=text]{
+    background-color: lightgray;
+    border: #04AA6D;
+    color: teal;
+    padding: 12px;
+    border-radius: 12px;
+    margin: auto;
+    margin-bottom: 18px;
+}
+
+input[type=password]{
+    background-color: lightgray;
+    border: #04AA6D;
+    color: teal;
+    padding: 12px;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.phrase{
+    margin-bottom: 20px;
+}

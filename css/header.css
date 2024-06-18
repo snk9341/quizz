@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(106, 187, 173);
+    margin-bottom: 25px;
+    width: 100%;
+}
+.logo{
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.nav {
+    align-items: center;
+    margin: auto;
+    width: 25%;
+}
+
+/*gère le positionnement interne du menu et la taille de l'écriture*/
+.nav li {
+    display: inline-block;
+    font-weight: 700;
+    font-size: larger;
+}
+  
+/*crée un block rouge*/
+.block-r {
+    background-color: blue;
+    border-radius: 8px;
+    box-shadow: 1px 1 px 5px #e3e3e3;
+    padding: 10px;
+}
+  
+/*crée un block bleu*/
+.block-b {
+    background-color: blue;
+    border-radius: 8px;
+    box-shadow: 1px 1 px 5px #e3e3e3;
+    padding: 10px;
+}  
+
+/*enleve le soulignement des liens*/
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.col-3{
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.profil{
+    align-self: center;
+    padding-left: 175px;
+}

@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(106, 187, 173);
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+}
+
+table{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid rgb(163, 196, 196);
+}
+
+.container1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-top: 100px;
+}
+
+.tableau{
+    width: 45%;
+    margin: auto;
+    padding: 12px;
+    font-size: larger;
+}
+
+.moyenne{
+    width: 45%;
+    margin: auto;
+    padding: 12px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bout{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+input[type=button]{
+    justify-content: center;
+    font-size: larger;
+  background-color: #04AA6D;
+  border: grey;
+      border-radius: 15px;
+  color: white;
+  padding-left:75px;
+  padding-right:75px;
+  padding-top:20px;
+  padding-bottom:20px;
+  margin: 25px;
+  cursor: pointer;
+}
+
+input[type=button]:hover{
+    background-color: #037c50;
+    transition: 5ms;
+}
+
+th{
+    height: 35px;
+    background-color: rgb(163, 196, 196);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+tr, td{
+    padding: 3px;
+    /* border: 1px solid bisque; */
+}
+
+tr:hover{
+    background-color: #037c50;
+
+}

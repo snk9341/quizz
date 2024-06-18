@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(106, 187, 173);
+}
+
+  body{
+    background-color: rgb(230, 230, 230);
+  }
+
+.eca{
+    width: 33.333%;
+}
+
+.champs{
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+}
+
+.qes{
+    font-size: 55px;
+}
+
+.deb{
+    font-size: 30px;
+}
+
+.exp{
+    font-size: 30px;
+}
+
+label{
+    cursor: pointer;
+}
+
+input[type=submit]{
+	font-size: larger;
+  background-color: #04AA6D;
+  border: grey;
+      border-radius: 15px;
+  color: white;
+  padding-left:50px;
+  padding-right:50px;
+  padding-top:10px;
+  padding-bottom:10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #037c50;
+    transition: 5ms;
+}
+
+.tableau{
+    text-align: center;
+    width: 31%;
+    margin: auto;
+    margin-right: 35px;
+    padding: 12px;
+    font-size: larger;
+    border: 2px solid #037c50;
+    background-color: #dbfff2;
+    border-radius: 15px;
+}
+
+th{
+    height: 35px;
+    width: 500px;
+    background-color: rgb(163, 196, 196);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+tr, td{
+    padding: 3px;
+    width: 33.333%;
+}
+
+tr:hover{
+    background-color: #04AA6D;
+
+}
+
+.container5{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 200px;
+}
+
+.form{
+    width: 66.666%;
+    margin: auto;
+}
+
+.para{
+    font-size: 30px;
+}

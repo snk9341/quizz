@@ -1,0 +1,15 @@
+.container2{
+    padding: auto;
+    width: 500px;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(163, 196, 196);
+  text-align: center;
+  }
+  body{
+    background-color: rgb(230, 230, 230);
+  }
+  .connexion {
+      color: #04AA6D;
+  }
