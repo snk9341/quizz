@@ -80,7 +80,7 @@ require_once("header.php");
                     </td>
                 </tr>
                 <?php
-                }
+                }}
             ?>
             </table>
         </div>
@@ -151,7 +151,7 @@ require_once("header.php");
             }elseif($moyenne2 == 15 || $moyenne2 >15){
             echo "felicitation vous êtes un champion!!!";
             }
-            }}}
+            }}
             ?>
         </div>
     </div>
