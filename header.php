@@ -15,7 +15,7 @@
 
         </div>
         <div class="logo">
-            🤔bienvenue sur le quizz !🤔
+            <a href="index.php">🤔bienvenue sur le quizz !🤔</a>
         </div>
         <div class="profil">
         <ul class="nav">
