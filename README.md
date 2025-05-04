@@ -22,9 +22,6 @@ Installer WAMP (Windows)
 Installer LAMP (Linux)
 
 2. Cloner le projet
-bash
-Copier
-Modifier
 git clone https://github.com/ton-utilisateur/nom-du-repo.git
 3. Importer la base de données
 Démarrer votre serveur (WAMP ou LAMP)
@@ -38,9 +35,6 @@ Importer le fichier qcm.sql qui se trouve à la racine du projet GitHub
 4. Configuration
 Si nécessaire, configure les identifiants de connexion à la base de données dans le fichier PHP correspondant (ex : config.php) :
 
-php
-Copier
-Modifier
 $host = 'localhost';
 $dbname = 'qcm';
 $user = 'root';
@@ -50,9 +44,6 @@ Note : Pour LAMP, l’utilisateur par défaut est aussi root, avec mot de passe 
 5. Lancer le projet
 Placer les fichiers du projet dans le dossier www (WAMP) ou htdocs (LAMP), puis accéder à :
 
-arduino
-Copier
-Modifier
 http://localhost/nom-du-dossier
 🧠 Utilisation
 Créez un compte ou connectez-vous.
@@ -74,3 +65,65 @@ Pour renforcer la sécurité, pensez à ajouter un système de validation des in
 🙋‍♂️ Auteur
 Projet développé par snk9341 dans le cadre de son BTS SIO SLAM.
 N'hésitez pas à contribuer ou proposer des améliorations via Pull Request !
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+🎯 Quiz Website with Difficulty Levels and Ranking System
+📋 Description
+This project is an interactive quiz website offering two difficulty levels: easy and hard.
+Users must log in or sign up to access the quizzes. Their performance is tracked and used to generate a ranking system based on the selected difficulty level.
+
+⚙️ Features
+🔐 User registration and login
+
+❓ Quizzes with two difficulty modes: easy and hard
+
+🏆 User ranking based on scores and chosen difficulty
+
+🗃️ Centralized database for users, questions, and scores
+
+💾 Installation
+1. Requirements
+The website requires a local server compatible with PHP and MySQL, such as WAMP (for Windows) or LAMP (for Linux/Mac).
+
+🔗 Useful links:
+Install WAMP (Windows)
+
+Install LAMP (Linux)
+
+2. Clone the project
+git clone https://github.com/your-username/your-repo-name.git
+3. Import the database
+Start your WAMP or LAMP server
+
+Open phpMyAdmin in your browser (http://localhost/phpmyadmin)
+
+Create a new database (e.g., qcm)
+
+Import the qcm.sql file located in the root of the GitHub project
+
+4. Configure the database connection
+Edit your database connection file (e.g., config.php) to match your local setup:
+
+$host = 'localhost';
+$dbname = 'qcm';
+$user = 'root';
+$password = '';
+Note: For LAMP, the default user is also root, with an empty password, unless you've set one.
+
+5. Launch the project
+Move the project files into the www folder (WAMP) or htdocs (LAMP), then access it via:
+
+http://localhost/project-folder-name
+🧠 Usage
+Create an account or log in.
+
+Choose a difficulty level: easy or hard.
+
+Answer the quiz questions.
+
+View your ranking based on your score and chosen difficulty.
+
+🙋‍♂️ Author
+Project developed by snk9341 as part of his BTS SIO SLAM curriculum.
+Feel free to contribute or suggest improvements through Pull Requests!
